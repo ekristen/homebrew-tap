@@ -6,7 +6,7 @@ class AzureNuke < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/ekristen/azure-nuke/releases/download/v0.15.0/azure-nuke-v0.15.0-darwin-amd64.tar.gz"
-      sha256 "014acd0de7977dce8c416a271444a78eb22115031955e7b9ff1b4773e29718c0"
+      sha256 "d1efd3bd6dfce717c72edcbb78ac2bb90cdc11bbca7be08229dc6027e78d2826"
 
       def install
         bin.install "azure-nuke"
@@ -14,7 +14,7 @@ class AzureNuke < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/ekristen/azure-nuke/releases/download/v0.15.0/azure-nuke-v0.15.0-darwin-arm64.tar.gz"
-      sha256 "3711dc26339ede5ca2145bd9a126beeaae3365c48a6d3dd7e31425c685972cb6"
+      sha256 "4d3aec6e0d48296848609138623ff98e20fbff9f6b7bc817648fbeb2189ddd04"
 
       def install
         bin.install "azure-nuke"
@@ -25,7 +25,7 @@ class AzureNuke < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://github.com/ekristen/azure-nuke/releases/download/v0.15.0/azure-nuke-v0.15.0-linux-amd64.tar.gz"
-      sha256 "9e08cecd901ae5689242189bdb3d0e77bee899f53d1011e42bd6863fc963d047"
+      sha256 "24266ab600faf4e2624db5af6df2ca225354c700efa9a4cd31862ec30a7099be"
 
       def install
         bin.install "azure-nuke"
@@ -33,7 +33,7 @@ class AzureNuke < Formula
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
       url "https://github.com/ekristen/azure-nuke/releases/download/v0.15.0/azure-nuke-v0.15.0-linux-arm7.tar.gz"
-      sha256 "696ccca0ec03dfac77166652feb724dc2ea23d4549c50d94a138210e23af0200"
+      sha256 "d19931709e57d708f9906634caa5fccf542ba2a574fd1eade266ca0a060b183b"
 
       def install
         bin.install "azure-nuke"
@@ -41,7 +41,7 @@ class AzureNuke < Formula
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/ekristen/azure-nuke/releases/download/v0.15.0/azure-nuke-v0.15.0-linux-arm64.tar.gz"
-      sha256 "3b4a111b60a2de18ae4bb2483b7e164456d622cf518b4818e3aee00175bb465a"
+      sha256 "3bd09ddc44723080a57489a1b752ad25f41f58638ebf6bc0a563d8704a01dcc9"
 
       def install
         bin.install "azure-nuke"
