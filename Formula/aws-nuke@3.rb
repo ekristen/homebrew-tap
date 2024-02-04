@@ -13,10 +13,6 @@ class AwsNuke < Formula
 
       def install
         bin.install "aws-nuke"
-        bash_completion.install "completions/aws-nuke.bash" => "aws-nuke"
-        zsh_completion.install "completions/aws-nuke.zsh" => "_aws-nuke"
-        fish_completion.install "completions/aws-nuke.fish"
-        man1.install "manpages/aws-nuke.1.gz"
       end
     end
     if Hardware::CPU.arm?
@@ -25,10 +21,6 @@ class AwsNuke < Formula
 
       def install
         bin.install "aws-nuke"
-        bash_completion.install "completions/aws-nuke.bash" => "aws-nuke"
-        zsh_completion.install "completions/aws-nuke.zsh" => "_aws-nuke"
-        fish_completion.install "completions/aws-nuke.fish"
-        man1.install "manpages/aws-nuke.1.gz"
       end
     end
   end
@@ -40,10 +32,6 @@ class AwsNuke < Formula
 
       def install
         bin.install "aws-nuke"
-        bash_completion.install "completions/aws-nuke.bash" => "aws-nuke"
-        zsh_completion.install "completions/aws-nuke.zsh" => "_aws-nuke"
-        fish_completion.install "completions/aws-nuke.fish"
-        man1.install "manpages/aws-nuke.1.gz"
       end
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
@@ -52,10 +40,6 @@ class AwsNuke < Formula
 
       def install
         bin.install "aws-nuke"
-        bash_completion.install "completions/aws-nuke.bash" => "aws-nuke"
-        zsh_completion.install "completions/aws-nuke.zsh" => "_aws-nuke"
-        fish_completion.install "completions/aws-nuke.fish"
-        man1.install "manpages/aws-nuke.1.gz"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
@@ -64,10 +48,6 @@ class AwsNuke < Formula
 
       def install
         bin.install "aws-nuke"
-        bash_completion.install "completions/aws-nuke.bash" => "aws-nuke"
-        zsh_completion.install "completions/aws-nuke.zsh" => "_aws-nuke"
-        fish_completion.install "completions/aws-nuke.fish"
-        man1.install "manpages/aws-nuke.1.gz"
       end
     end
   end
