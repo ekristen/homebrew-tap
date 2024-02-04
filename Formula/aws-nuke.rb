@@ -13,7 +13,6 @@ class AwsNuke < Formula
 
       def install
         bin.install "aws-nuke"
-        man1.install "manpages/aws-nuke.1.gz"
       end
     end
     if Hardware::CPU.arm?
