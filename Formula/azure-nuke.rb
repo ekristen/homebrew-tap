@@ -45,10 +45,6 @@ class AzureNuke < Formula
 
       def install
         bin.install "azure-nuke"
-        bash_completion.install "completions/azure-nuke.bash" => "azure-nuke"
-        zsh_completion.install "completions/azure-nuke.zsh" => "_azure-nuke"
-        fish_completion.install "completions/azure-nuke.fish"
-        man1.install "manpages/azure-nuke.1.gz"
       end
     end
   end
