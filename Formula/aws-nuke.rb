@@ -1,5 +1,5 @@
 class AwsNuke < Formula
-  desc "Remove all the resources from an AWS account. "
+  desc "Remove all the resources from an AWS account."
   homepage "https://ekristen.github.io/aws-nuke/"
   version "2.26.0"
 
