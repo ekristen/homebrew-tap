@@ -14,5 +14,16 @@
       "matchCurrentVersion": "!/^0/",
       "automerge": true
     }
+  ],
+  "regexManagers": [
+    {
+      "fileMatch": [
+        "*.rb"
+      ],
+      "datasourceTemplate": "github-release-attachments",
+      "matchStrings": [
+        "url \"https://github.com/(?<depName>.*?)/releases/download/(?<currentValue>.*?)/(?<currentValue.*?).*\"\\n\\s*sha256 \"(?<currentDigest>.*)\""
+      ]
+    }
   ]
 }
