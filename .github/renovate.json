@@ -22,7 +22,7 @@
       ],
       "datasourceTemplate": "github-release-attachments",
       "matchStrings": [
-        "url \"https://github.com/(?<depName>.*?)/releases/download/(?<currentValue>.*?)/(?<currentValue.*?).*\"\\n\\s*sha256 \"(?<currentDigest>.*)\""
+        "url \"https://github.com/(?<depName>.*?)/releases/download/(?<currentValue>.*?)/(?<currentValue>.*?).*\"\\n\\s*sha256 \"(?<currentDigest>.*)\""
       ]
     }
   ]
