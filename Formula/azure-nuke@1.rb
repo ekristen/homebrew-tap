@@ -1,7 +1,7 @@
 class AzureNukeAT1 < Formula
-  desc "Remove all the resources from an Azure tenant."
+  desc "Remove all the resources from an Azure tenant"
   homepage "https://ekristen.github.io/azure-nuke/"
-  version "1.0.0-next.2"
+  version "1.0.0-next.4"
 
   on_macos do
     if Hardware::CPU.intel?

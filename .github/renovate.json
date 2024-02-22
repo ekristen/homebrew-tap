@@ -36,6 +36,17 @@
       "matchStrings": [
         "version \"(?<currentValue>.*?)\""
       ]
+    },
+    {
+      "fileMatch": [
+        ".*azure-nuke.*.rb$"
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "ekristen/azure-nuke",
+      "versioningTemplate": "semver",
+      "matchStrings": [
+        "version \"(?<currentValue>.*?)\""
+      ]
     }
   ]
 }
