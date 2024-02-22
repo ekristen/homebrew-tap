@@ -27,9 +27,10 @@
     },
     {
       "fileMatch": [
-        ".*.rb$"
+        ".*aws-nuke.rb$"
       ],
-      "datasourceTemplate": "github-release-attachments",
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "ekristen/aws-nuke",
       "matchStrings": [
         "version \"(?<currentValue>.*?)\""
       ]
