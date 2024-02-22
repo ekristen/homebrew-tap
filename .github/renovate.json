@@ -18,7 +18,7 @@
   "regexManagers": [
     {
       "fileMatch": [
-        "*.rb"
+        ".*.rb$"
       ],
       "datasourceTemplate": "github-release-attachments",
       "matchStrings": [
@@ -27,7 +27,7 @@
     },
     {
       "fileMatch": [
-        "*.rb"
+        ".*.rb$"
       ],
       "datasourceTemplate": "github-release-attachments",
       "matchStrings": [
