@@ -31,6 +31,7 @@
       ],
       "datasourceTemplate": "github-releases",
       "depNameTemplate": "ekristen/aws-nuke",
+      "versioningTemplate": "semver",
       "matchStrings": [
         "version \"(?<currentValue>.*?)\""
       ]
