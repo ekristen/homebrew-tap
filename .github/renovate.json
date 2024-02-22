@@ -21,6 +21,7 @@
         ".*.rb$"
       ],
       "datasourceTemplate": "github-release-attachments",
+      "versioningTemplate": "semver",
       "matchStrings": [
         "url \"https:\/\/github.com\/(?<depName>.*?)\/releases\/download\/(?<currentValue>.*?)\/(?<newValue>.*?).*\"\\n\\s*sha256 \"(?<currentDigest>.*)\""
       ]
