@@ -28,7 +28,7 @@
     },
     {
       "fileMatch": [
-        ".*aws-nuke.rb$"
+        ".*aws-nuke.*.rb$"
       ],
       "datasourceTemplate": "github-releases",
       "depNameTemplate": "ekristen/aws-nuke",
