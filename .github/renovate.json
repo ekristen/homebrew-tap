@@ -19,6 +19,12 @@
         "github-releases"
       ],
       "extractVersion": "^v(?<version>.*)$"
+    },
+    {
+      "matchDatasources": [
+        "github-release-attachments"
+      ],
+      "automerge": true
     }
   ],
   "regexManagers": [
