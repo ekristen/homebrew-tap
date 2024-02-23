@@ -1,5 +1,5 @@
 class Cast < Formula
-  desc "Cast is a tool to help you configure and install custom linux distributions"
+  desc "A tool to help you configure and install cast compatible linux distributations like SIFT and REMnux"
   homepage "https://github.com/ekristen/cast"
 
   on_macos do
