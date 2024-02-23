@@ -1,7 +1,7 @@
 class AwsNukeAT3 < Formula
   desc "Remove all the resources from an AWS account"
   homepage "https://ekristen.github.io/aws-nuke/"
-  version "v3.0.0-beta.22"
+  version "3.0.0-beta.22"
 
   on_macos do
     if Hardware::CPU.intel?
