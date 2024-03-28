@@ -40,6 +40,17 @@
     },
     {
       "fileMatch": [
+        ".*cast.*.rb$"
+      ],
+      "datasourceTemplate": "github-releases",
+      "depNameTemplate": "ekristen/cast",
+      "versioningTemplate": "semver",
+      "matchStrings": [
+        "version \"(?<currentValue>.*?)\""
+      ]
+    },
+    {
+      "fileMatch": [
         ".*aws-nuke.*.rb$"
       ],
       "datasourceTemplate": "github-releases",
