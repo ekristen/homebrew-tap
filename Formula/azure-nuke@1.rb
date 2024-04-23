@@ -4,8 +4,8 @@ class AzureNukeAT1 < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0-beta.3/azure-nuke-v1.0.0-beta.3-darwin-amd64.tar.gz"
-      sha256 "9facf7c068a365adc6641f8cdaea30b6e3b09af43f0594a23956b437dffd6259"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0-next.11/azure-nuke-v1.0.0-next.11-darwin-amd64.tar.gz"
+      sha256 "e591c54c4a77cdea860dccf25f9ceab770fa68c9e4085030b78fd839c4b5737c"
 
       def install
         bin.install "azure-nuke"
@@ -15,8 +15,8 @@ class AzureNukeAT1 < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0-beta.3/azure-nuke-v1.0.0-beta.3-linux-amd64.tar.gz"
-      sha256 "beb14c78f5343f12f413a1ee35858f07750a97f50beaa31fa8cda9f91cf43b70"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0-next.11/azure-nuke-v1.0.0-next.11-linux-amd64.tar.gz"
+      sha256 "a558899ffd1b6256e04b1da81ed51778989a806897d1b8f2869336706ed342c7"
 
       def install
         bin.install "azure-nuke"
