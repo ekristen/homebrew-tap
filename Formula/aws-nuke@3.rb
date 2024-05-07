@@ -4,16 +4,16 @@ class AwsNukeAT3 < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/aws-nuke/releases/download/v3.0.0-beta.48/aws-nuke-v3.0.0-beta.48-darwin-amd64.tar.gz"
-      sha256 "13e7725b56536648ace373d0b09cf9cea9f50a7c0ca0ebfb9e99f60e0b70ce70"
+      url "https://github.com/ekristen/aws-nuke/releases/download/v3.0.0-beta.49/aws-nuke-v3.0.0-beta.49-darwin-amd64.tar.gz"
+      sha256 "cccac6800871a8bd7986e450497a0c4596595bb3b8f7ab70affbe0e54688d0c8"
 
       def install
         bin.install "aws-nuke"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ekristen/aws-nuke/releases/download/v3.0.0-beta.48/aws-nuke-v3.0.0-beta.48-darwin-arm64.tar.gz"
-      sha256 "ed9bac09ba58bf6f33bc24d51a524056e10d77277b86df71bc3b1abf7d4ec3f1"
+      url "https://github.com/ekristen/aws-nuke/releases/download/v3.0.0-beta.49/aws-nuke-v3.0.0-beta.49-darwin-arm64.tar.gz"
+      sha256 "675f2f39677cc8012f605a9d8cc168ba66839f89a6ee1724ac70fe63523a2f7b"
 
       def install
         bin.install "aws-nuke"
@@ -23,24 +23,24 @@ class AwsNukeAT3 < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/aws-nuke/releases/download/v3.0.0-beta.48/aws-nuke-v3.0.0-beta.48-linux-amd64.tar.gz"
-      sha256 "e2911a06eba7d02791399be450fc20e5f8235639af812067f1db9560d6d898ab"
+      url "https://github.com/ekristen/aws-nuke/releases/download/v3.0.0-beta.49/aws-nuke-v3.0.0-beta.49-linux-amd64.tar.gz"
+      sha256 "9f3c8e3a30cd8f4a50c4c7cb3746ccdf3a65a137c566f37bef8dec58ccfdc990"
 
       def install
         bin.install "aws-nuke"
       end
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/aws-nuke/releases/download/v3.0.0-beta.48/aws-nuke-v3.0.0-beta.48-linux-arm7.tar.gz"
-      sha256 "6b5ee919a9f39722fba54fd8d9ab7d5417344772443d8b5e29db087d56d6cdad"
+      url "https://github.com/ekristen/aws-nuke/releases/download/v3.0.0-beta.49/aws-nuke-v3.0.0-beta.49-linux-arm7.tar.gz"
+      sha256 "b32888d41dac9d172d7a0447f09bcfa46e618c8b3201b767063cbe48b5557891"
 
       def install
         bin.install "aws-nuke"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/aws-nuke/releases/download/v3.0.0-beta.48/aws-nuke-v3.0.0-beta.48-linux-arm64.tar.gz"
-      sha256 "087043b022dde0bcd894d6129b52e03abcc9ae07e322f0aa431f46c3dfcbec46"
+      url "https://github.com/ekristen/aws-nuke/releases/download/v3.0.0-beta.49/aws-nuke-v3.0.0-beta.49-linux-arm64.tar.gz"
+      sha256 "e717bf50d0e0737ab421ea2dac08cec301fc8c30137dab197f2fddf7ed207ef3"
 
       def install
         bin.install "aws-nuke"
