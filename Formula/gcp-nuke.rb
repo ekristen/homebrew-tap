@@ -4,16 +4,16 @@ class GcpNuke < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.0.0-beta.6/gcp-nuke-v1.0.0-beta.6-darwin-amd64.tar.gz"
-      sha256 "b3bf643bc2b003f49a07dd3db68468542e9067ef315c6216be9d495dc1db45b2"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.0.0-beta.9/gcp-nuke-v1.0.0-beta.9-darwin-amd64.tar.gz"
+      sha256 "ccb8484b09a362e700b67894295a6744667226fa526e18e6988c2650dd8d0a87"
 
       def install
         bin.install "gcp-nuke"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.0.0-beta.6/gcp-nuke-v1.0.0-beta.6-darwin-arm64.tar.gz"
-      sha256 "a1a186032008db8001c2469f3396b62608c696b57a3d50af3201876882baf268"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.0.0-beta.9/gcp-nuke-v1.0.0-beta.9-darwin-arm64.tar.gz"
+      sha256 "92f3a5ef9622ef727594835b09433381864e627c11553efc3f05b74be8e36d18"
 
       def install
         bin.install "gcp-nuke"
@@ -23,16 +23,16 @@ class GcpNuke < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.0.0-beta.6/gcp-nuke-v1.0.0-beta.6-linux-amd64.tar.gz"
-      sha256 "bdbfb876f9c81c25b13d19cffb9e3ec9b5ee49a065452b24c5a2496f73575196"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.0.0-beta.9/gcp-nuke-v1.0.0-beta.9-linux-amd64.tar.gz"
+      sha256 "5e589dbf89f7fc94b9717b6b7cec311b0dac4bc135bb124df3467e07fa4ce95a"
 
       def install
         bin.install "gcp-nuke"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.0.0-beta.6/gcp-nuke-v1.0.0-beta.6-linux-arm64.tar.gz"
-      sha256 "940c529a968e84188f8f684bcea76c9871e0bd310679f8768af72843b0a6da2c"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.0.0-beta.9/gcp-nuke-v1.0.0-beta.9-linux-arm64.tar.gz"
+      sha256 "c01e819f9220b256d7bec0b79890a776b4ec5fdb36d53920e05ee9f8419dec19"
 
       def install
         bin.install "gcp-nuke"
