@@ -1,4 +1,4 @@
-class AwsNukeAT3 < Formula
+class AwsNuke < Formula
   desc "Remove all the resources from an AWS account"
   homepage "https://ekristen.github.io/aws-nuke/"
 
