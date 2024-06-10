@@ -25,6 +25,17 @@
         "github-release-attachments"
       ],
       "automerge": true
+    },
+    {
+      "matchPackageNames": [
+        "ekristen/aws-nuke"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ]
     }
   ],
   "regexManagers": [
