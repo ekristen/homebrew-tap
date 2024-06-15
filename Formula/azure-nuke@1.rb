@@ -1,11 +1,12 @@
 class AzureNukeAT1 < Formula
   desc "Remove all the resources from an Azure tenant"
   homepage "https://ekristen.github.io/azure-nuke/"
+  version "v1.0.0-beta.12"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0-next.11/azure-nuke-v1.0.0-next.11-darwin-amd64.tar.gz"
-      sha256 "e591c54c4a77cdea860dccf25f9ceab770fa68c9e4085030b78fd839c4b5737c"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0-beta.12/azure-nuke-v1.0.0-beta.12-darwin-amd64.tar.gz"
+      sha256 "a91631952d5cd299be851a351afbeebea68f07ff3fbcac224ce84c0a0187bd24"
 
       def install
         bin.install "azure-nuke"
@@ -15,8 +16,8 @@ class AzureNukeAT1 < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0-next.11/azure-nuke-v1.0.0-next.11-linux-amd64.tar.gz"
-      sha256 "a558899ffd1b6256e04b1da81ed51778989a806897d1b8f2869336706ed342c7"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0-beta.12/azure-nuke-v1.0.0-beta.12-linux-amd64.tar.gz"
+      sha256 "7449409752ddb4b3d907043e348ecdb254ed71a8f3c3e1318fe3b3dd2e1facff"
 
       def install
         bin.install "azure-nuke"
