@@ -6,7 +6,7 @@ class AzureNukeAT1 < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0-beta.13/azure-nuke-v1.0.0-beta.13-darwin-amd64.tar.gz"
-      sha256 "a91631952d5cd299be851a351afbeebea68f07ff3fbcac224ce84c0a0187bd24"
+      sha256 "b79fcd4dc40401752d0335fa36a51b208789b156e85ebf4ff014a2c33f1cc206"
 
       def install
         bin.install "azure-nuke"
