@@ -4,16 +4,16 @@ class AzureNuke < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v0.15.0/azure-nuke-v0.15.0-darwin-amd64.tar.gz"
-      sha256 "d1efd3bd6dfce717c72edcbb78ac2bb90cdc11bbca7be08229dc6027e78d2826"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0/azure-nuke-v1.0.0-darwin-amd64.tar.gz"
+      sha256 "7d1766dd5dd49e4c7435024cc2f3f0545be89ba896576c726f0cddd093ba3ae8"
 
       def install
         bin.install "azure-nuke"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v0.15.0/azure-nuke-v0.15.0-darwin-arm64.tar.gz"
-      sha256 "4d3aec6e0d48296848609138623ff98e20fbff9f6b7bc817648fbeb2189ddd04"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0/azure-nuke-v1.0.0-darwin-arm64.tar.gz"
+      sha256 "9201bab21db08ccdaf851f6e1250ed62897687bbb636b4afdd799ce8f2b29c8e"
 
       def install
         bin.install "azure-nuke"
@@ -23,24 +23,24 @@ class AzureNuke < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v0.15.0/azure-nuke-v0.15.0-linux-amd64.tar.gz"
-      sha256 "24266ab600faf4e2624db5af6df2ca225354c700efa9a4cd31862ec30a7099be"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0/azure-nuke-v1.0.0-linux-amd64.tar.gz"
+      sha256 "fba7b8583966981d4d582a2af8404e67f7e4099583663a8489dbd767e650471a"
 
       def install
         bin.install "azure-nuke"
       end
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v0.15.0/azure-nuke-v0.15.0-linux-arm7.tar.gz"
-      sha256 "d19931709e57d708f9906634caa5fccf542ba2a574fd1eade266ca0a060b183b"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0/azure-nuke-v1.0.0-linux-arm7.tar.gz"
+      sha256 "d0ed05c7ffa65f3a94085233406186d5fbc2c0df27700563a2b3c62ad7293d35"
 
       def install
         bin.install "azure-nuke"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v0.15.0/azure-nuke-v0.15.0-linux-arm64.tar.gz"
-      sha256 "3bd09ddc44723080a57489a1b752ad25f41f58638ebf6bc0a563d8704a01dcc9"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.0.0/azure-nuke-v1.0.0-linux-arm64.tar.gz"
+      sha256 "be80054b56dcad8e37ba4c31ab2d624ef739493cb859ac3ffe85cca3e5f49f0e"
 
       def install
         bin.install "azure-nuke"
