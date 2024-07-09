@@ -22,6 +22,12 @@
       "automerge": true
     },
     {
+      "matchFileNames": [
+        "Formula/aws-nuke@2.rb"
+      ],
+      "enabled": false
+    },
+    {
       "matchDatasources": [
         "github-releases"
       ],
