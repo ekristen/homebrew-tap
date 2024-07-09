@@ -1,4 +1,4 @@
-class AzureNukeAT1 < Formula
+class AzureNuke < Formula
   desc "Remove all the resources from an Azure tenant"
   homepage "https://ekristen.github.io/azure-nuke/"
   version "1.0.0-beta.13"
