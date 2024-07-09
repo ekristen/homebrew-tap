@@ -38,15 +38,6 @@
         "github-release-attachments"
       ],
       "automerge": true
-    },
-    {
-      "matchBaseBranches": [
-        "main"
-      ],
-      "matchUpdateTypes": [
-        "major"
-      ],
-      "enabled": false
     }
   ],
   "regexManagers": [
