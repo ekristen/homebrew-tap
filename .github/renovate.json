@@ -34,8 +34,8 @@
       "automerge": true
     },
     {
-      "matchFileNames": [
-        "*.rb"
+      "matchBaseBranches": [
+        "main"
       ],
       "matchUpdateTypes": [
         "major"
