@@ -35,10 +35,10 @@
     },
     {
       "matchFileNames": [
-        "Formula/*.rb"
+        "*.rb"
       ],
       "matchUpdateTypes": [
-        "major",
+        "major"
       ],
       "enabled": false
     }
