@@ -9,6 +9,7 @@
     "group:recommended",
     "workarounds:all"
   ],
+  "separateMultipleMajor": true,
   "packageRules": [
     {
       "matchFileNames": [
@@ -31,6 +32,15 @@
         "github-release-attachments"
       ],
       "automerge": true
+    },
+    {
+      "matchFileNames": [
+        "Formula/*.rb"
+      ],
+      "matchUpdateTypes": [
+        "major",
+      ],
+      "enabled": false
     },
     {
       "matchPackageNames": [
