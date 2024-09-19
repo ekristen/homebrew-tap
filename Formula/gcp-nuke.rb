@@ -4,16 +4,16 @@ class GcpNuke < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.9/gcp-nuke-v1.4.9-darwin-amd64.tar.gz"
-      sha256 "56effae80a901fde90c0da9c3d2acb684a21d4d325195834ce26c112af2fc2f8"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.11/gcp-nuke-v1.4.11-darwin-amd64.tar.gz"
+      sha256 "8f02e345e55b3331bc605d513522fc57972bb8f0278e26f8820a5637d419c7ec"
 
       def install
         bin.install "gcp-nuke"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.9/gcp-nuke-v1.4.9-darwin-arm64.tar.gz"
-      sha256 "5e7c2b1532f20ad00c5bd2743f86785f202cfa8724e94c1c59bb81a70c1eb72c"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.11/gcp-nuke-v1.4.11-darwin-arm64.tar.gz"
+      sha256 "984602e4545a4d90c6215fa7cc7632be262787ebc344693e532b5e8d39f02a49"
 
       def install
         bin.install "gcp-nuke"
@@ -23,16 +23,16 @@ class GcpNuke < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.9/gcp-nuke-v1.4.9-linux-amd64.tar.gz"
-      sha256 "04ef97a6aca8054951e16a83458df80c5daa504cb108f0d0a84cb5c6c8705df8"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.11/gcp-nuke-v1.4.11-linux-amd64.tar.gz"
+      sha256 "d15bbab984afe3344d4091af8746455977f916e6c5d2336e225a521369b70d70"
 
       def install
         bin.install "gcp-nuke"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.9/gcp-nuke-v1.4.9-linux-arm64.tar.gz"
-      sha256 "94968f38de82d647d911177165760e6948d06f59d01d66b5c42de8508f0b0578"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.11/gcp-nuke-v1.4.11-linux-arm64.tar.gz"
+      sha256 "0fc59446d056d2ef0497903802ddb0e684f4bf7a35f1ba13e33d57e3403a4ba0"
 
       def install
         bin.install "gcp-nuke"
