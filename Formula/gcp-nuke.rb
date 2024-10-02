@@ -4,16 +4,16 @@ class GcpNuke < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.11/gcp-nuke-v1.4.11-darwin-amd64.tar.gz"
-      sha256 "8f02e345e55b3331bc605d513522fc57972bb8f0278e26f8820a5637d419c7ec"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.13/gcp-nuke-v1.4.13-darwin-amd64.tar.gz"
+      sha256 "fba3c828dbf16f0fcb9b0cecbbdfa29b044cd4633859632c133a7a4d17845e37"
 
       def install
         bin.install "gcp-nuke"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.11/gcp-nuke-v1.4.11-darwin-arm64.tar.gz"
-      sha256 "984602e4545a4d90c6215fa7cc7632be262787ebc344693e532b5e8d39f02a49"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.13/gcp-nuke-v1.4.13-darwin-arm64.tar.gz"
+      sha256 "ed32e648ebc5c991ef511e4357f6cd940706fd83fd5dbe1f92cc6de91aa41555"
 
       def install
         bin.install "gcp-nuke"
@@ -23,16 +23,16 @@ class GcpNuke < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.11/gcp-nuke-v1.4.11-linux-amd64.tar.gz"
-      sha256 "d15bbab984afe3344d4091af8746455977f916e6c5d2336e225a521369b70d70"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.13/gcp-nuke-v1.4.13-linux-amd64.tar.gz"
+      sha256 "25e6e3b11cbf6378fda037ecd5482e90f41815b3a696773af6432aa770d7050f"
 
       def install
         bin.install "gcp-nuke"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.11/gcp-nuke-v1.4.11-linux-arm64.tar.gz"
-      sha256 "0fc59446d056d2ef0497903802ddb0e684f4bf7a35f1ba13e33d57e3403a4ba0"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.13/gcp-nuke-v1.4.13-linux-arm64.tar.gz"
+      sha256 "0e15bae9bf9292cd4e69eb2de6b2cfdc4494924166e4d3cebddef0cce4f01791"
 
       def install
         bin.install "gcp-nuke"
