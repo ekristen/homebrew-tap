@@ -4,16 +4,16 @@ class GcpNuke < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/gcp-nuke/archive/refs/tags/v1.4.18.tar.gz"
-      sha256 "07c09b9fcd99bd2b4c6e2683a31b8fa5bb71993eaf75997cec4e39636549495b"
+      url "https://github.com/ekristen/gcp-nuke/archive/refs/tags/v1.4.26.tar.gz"
+      sha256 "3d785c458b986a98d73501fc5fcdadb147adfa714ed8f392bb9cca83dfea4c3f"
 
       def install
         bin.install "gcp-nuke"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.18/gcp-nuke-v1.4.18-darwin-arm64.tar.gz"
-      sha256 "5c6d070f39fda2d69cb5595b3e58c376473dcc2a1c5c5353996bfce812213d46"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.26/gcp-nuke-v1.4.26-darwin-arm64.tar.gz"
+      sha256 "932603e4b5602dfe313fddb6a910b95efe0d13542c70689bd8fc293361c86ae1"
 
       def install
         bin.install "gcp-nuke"
@@ -23,16 +23,16 @@ class GcpNuke < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.18/gcp-nuke-v1.4.18-linux-amd64.tar.gz"
-      sha256 "cc8d7057be80383b9357ab4ef8817c970026526f8ef1c46fe1133fd52129200a"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.26/gcp-nuke-v1.4.26-linux-amd64.tar.gz"
+      sha256 "bef60ef74688d5e4987abaed65faaa499bf8d9cfe8c8aa53665bc1d0548a700d"
 
       def install
         bin.install "gcp-nuke"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.18/gcp-nuke-v1.4.18-linux-arm64.tar.gz"
-      sha256 "67d0ed71d4270d3fe8a8397b8f4115495bb5b89d146f6c9b76a37c272aba9b6e"
+      url "https://github.com/ekristen/gcp-nuke/releases/download/v1.4.26/gcp-nuke-v1.4.26-linux-arm64.tar.gz"
+      sha256 "8c2341a87f1f7a2bc5b79907f6b13f280305f9d23b516a70dbc2f92b5cdbcf75"
 
       def install
         bin.install "gcp-nuke"
