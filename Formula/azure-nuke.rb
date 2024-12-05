@@ -1,20 +1,20 @@
 class AzureNuke < Formula
   desc "Remove all the resources from an Azure tenant"
   homepage "https://ekristen.github.io/azure-nuke/"
-  version "1.1.0"
+  version "1.2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v1.1.0/azure-nuke-v1.1.0-darwin-amd64.tar.gz"
-      sha256 "fe784f0657b3b163a76c78bf55e36015dc3e7f3b3447f07d45f037fec782d5e7"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.2.0/azure-nuke-v1.2.0-darwin-amd64.tar.gz"
+      sha256 "79f260ec884e49b5cb73cae9b7e3df373ed254f184304bedf2a04d3b7a1cbf93"
 
       def install
         bin.install "azure-nuke"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v1.1.0/azure-nuke-v1.1.0-darwin-arm64.tar.gz"
-      sha256 "d93920601172dbb723d19572f119722f94a6788a82a0416897445a5845874506"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.2.0/azure-nuke-v1.2.0-darwin-arm64.tar.gz"
+      sha256 "f4f48f5a9477accbf9f664e3c8283d8406af7e8f446c40ac333d7ceb0a43485b"
 
       def install
         bin.install "azure-nuke"
@@ -24,24 +24,24 @@ class AzureNuke < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v1.1.0/azure-nuke-v1.1.0-linux-amd64.tar.gz"
-      sha256 "9622a0ed63b78998a632b81ab44643ca8f0b534a9e8b24f694ce73d88d293f83"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.2.0/azure-nuke-v1.2.0-linux-amd64.tar.gz"
+      sha256 "50adac11831a9fd07e49990aa5b5e696c4db82b22edf780b17172352d957bf6e"
 
       def install
         bin.install "azure-nuke"
       end
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v1.1.0/azure-nuke-v1.1.0-linux-arm7.tar.gz"
-      sha256 "5f991d8f688444a8b54b4373bb1439cfcccda7e16677f531225f0153390b0f7d"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.2.0/azure-nuke-v1.2.0-linux-arm7.tar.gz"
+      sha256 "eaebb3319862a1d1f4c1eff83ca224a9c97cf66c60c781276ac508e188a824b1"
 
       def install
         bin.install "azure-nuke"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/azure-nuke/releases/download/v1.1.0/azure-nuke-v1.1.0-linux-arm64.tar.gz"
-      sha256 "68a0ba7d2c94ebd02dc6dbd13243f08685ebbfcf989f701e12ceed2f0d619ae9"
+      url "https://github.com/ekristen/azure-nuke/releases/download/v1.2.0/azure-nuke-v1.2.0-linux-arm64.tar.gz"
+      sha256 "abc773ed48cfef93a5ab35332c201bba8f2fcb566de89757ac0a9dafe48b6026"
 
       def install
         bin.install "azure-nuke"
