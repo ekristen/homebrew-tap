@@ -4,8 +4,8 @@ class GcpNuke < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/gcp-nuke/archive/refs/tags/v1.7.8.tar.gz"
-      sha256 "87abbe23523b670d201a069e8a9470b0195eb9d25e136c3037721d01aea442d2"
+      url "https://github.com/ekristen/gcp-nuke/archive/refs/tags/v1.7.9.tar.gz"
+      sha256 "676ef347c3dd5bfefd5709382cd5d079ff32457918cc707b70ae1710168985ef"
 
       def install
         bin.install "gcp-nuke"
