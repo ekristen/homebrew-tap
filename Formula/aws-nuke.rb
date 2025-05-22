@@ -1,12 +1,12 @@
 class AwsNuke < Formula
   desc "Remove all the resources from an AWS account"
   homepage "https://ekristen.github.io/aws-nuke/"
-  version "3.51.1"
+  version "3.55.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/aws-nuke/releases/download/v3.51.1/aws-nuke-v3.51.1-darwin-amd64.tar.gz"
-      sha256 "bf72b6fd5975c1537a12b9e3ff0182051f019ac8bfc0fce909853a98fab4ea11"
+      url "https://github.com/ekristen/aws-nuke/archive/refs/tags/v3.55.0.tar.gz"
+      sha256 "81840be43088bc03d2b9a14b58fc94223f23771acd78daff8fb633c3538438fb"
 
       def install
         bin.install "aws-nuke"
