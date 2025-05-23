@@ -4,16 +4,16 @@ class Cast < Formula
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/cast/releases/download/v0.15.10/cast-v0.15.10-darwin-amd64.tar.gz"
-      sha256 "43c64545f9d4ec8f0f87e82a7f33c16ad9f09eae80c390f68730474674623085"
+      url "https://github.com/ekristen/cast/releases/download/v0.16.11/cast-v0.16.11-darwin-amd64.tar.gz"
+      sha256 "df7b644acd7ee316efaa19ae2ee3c865a738a315afdbd51d7287aa2d73d97575"
 
       def install
         bin.install "cast"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ekristen/cast/releases/download/v0.15.10/cast-v0.15.10-darwin-arm64.tar.gz"
-      sha256 "6bb485debd9affe3b8af848e31a44eeaa978968a97de1b92cd5f0d2726f703dd"
+      url "https://github.com/ekristen/cast/releases/download/v0.16.11/cast-v0.16.11-darwin-arm64.tar.gz"
+      sha256 "5fa82775574d973ec0218b5d6d1a2fce0f9bafc68ec040105cb2d931bd86b21c"
 
       def install
         bin.install "cast"
@@ -23,16 +23,16 @@ class Cast < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/cast/releases/download/v0.15.10/cast-v0.15.10-linux-amd64.tar.gz"
-      sha256 "35ebbcdfa1b5668754efcef5a4176c578eb0dfa8ab149252f3e1c5c4f0179043"
+      url "https://github.com/ekristen/cast/releases/download/v0.16.11/cast-v0.16.11-linux-amd64.tar.gz"
+      sha256 "9fc54082e7adff4acd58b2e0f41bc619ce81df474fbc01a0c5fbc84ea9c404f1"
 
       def install
         bin.install "cast"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/cast/releases/download/v0.15.10/cast-v0.15.10-linux-arm64.tar.gz"
-      sha256 "412f9cffa4157e443d018f3236d996d3cdc48d15500fbfc2859545fa9a40490a"
+      url "https://github.com/ekristen/cast/releases/download/v0.16.11/cast-v0.16.11-linux-arm64.tar.gz"
+      sha256 "0b5788cd11116d5bf6f32faf5d2088e13936b2d1b9cab6d63d57cf35fc249145"
 
       def install
         bin.install "cast"
