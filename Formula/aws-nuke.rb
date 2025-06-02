@@ -13,8 +13,8 @@ class AwsNuke < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/ekristen/aws-nuke/releases/download/v3.51.1/aws-nuke-v3.51.1-darwin-arm64.tar.gz"
-      sha256 "89a262e09fed1ea7acf664cd259a906a765a42b07c6c0929b55b49b0085cc561"
+      url "https://github.com/ekristen/aws-nuke/releases/download/v3.56.0/aws-nuke-v3.56.0-darwin-arm64.tar.gz"
+      sha256 "fed02abe4f48059551d5cc8e8f5e62a21bf06e45131a44a82d1c133253da73c5"
 
       def install
         bin.install "aws-nuke"
@@ -24,24 +24,24 @@ class AwsNuke < Formula
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/ekristen/aws-nuke/releases/download/v3.51.1/aws-nuke-v3.51.1-linux-amd64.tar.gz"
-      sha256 "3cd3b60d2bed974b022d071c6e6f1d000a5b92aacf236dfb74e8e343e65e8a03"
+      url "https://github.com/ekristen/aws-nuke/releases/download/v3.56.0/aws-nuke-v3.56.0-linux-amd64.tar.gz"
+      sha256 "52bb36793d07fcc3b0c35a1df2bbdd46ec53e48901bb5afe409045cc462e2f51"
 
       def install
         bin.install "aws-nuke"
       end
     end
     if Hardware::CPU.arm? && !Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/aws-nuke/releases/download/v3.51.1/aws-nuke-v3.51.1-linux-arm7.tar.gz"
-      sha256 "2911e8ef1abc9ac7f5090873b0798a9e014ad98d3771562d1fdfb04cc16f5a7b"
+      url "https://github.com/ekristen/aws-nuke/releases/download/v3.56.0/aws-nuke-v3.56.0-linux-arm7.tar.gz"
+      sha256 "40025c3a9219288605b0b2fc5f7acea39a3e6f70242578a812ae130a82d00238"
 
       def install
         bin.install "aws-nuke"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/ekristen/aws-nuke/releases/download/v3.51.1/aws-nuke-v3.51.1-linux-arm64.tar.gz"
-      sha256 "73cf04ca4c500012d693ed65294eb53a217c668e2689470185907a938237e8dd"
+      url "https://github.com/ekristen/aws-nuke/releases/download/v3.56.0/aws-nuke-v3.56.0-linux-arm64.tar.gz"
+      sha256 "823ef64dacf15a01ff1f9f04c1a63d86b3f1dcf1cc68153d3ea4f6068ba01d7e"
 
       def install
         bin.install "aws-nuke"
